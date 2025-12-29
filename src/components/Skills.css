@@ -1,0 +1,102 @@
+.skills-section {
+    padding: 6rem 2rem;
+    /* background-color: var(--bg-secondary); Removed to let global gradient show through */
+    background: transparent;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.skill-wrapper {
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
+    /* Glassmorphism */
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-subtle);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-wrapper:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-primary);
+}
+
+.skill-wrapper h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border-subtle);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    /* Slight tint */
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.skill-icon {
+    display: flex;
+    /* Fix alignment */
+    font-size: 1.1em;
+}
+
+/* Specific highlighting for AI tags */
+.skill-tag.ai {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-primary);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.skill-tag:hover {
+    background: var(--text-primary);
+    color: var(--bg-primary);
+    transform: translateY(-2px);
+}
+
+.languages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.language-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.language-item:last-child {
+    border-bottom: none;
+}
+
+.lang-name {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.lang-level {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
