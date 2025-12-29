@@ -6,8 +6,11 @@ WORKDIR /app
 # Copy package files first to leverage Docker cache
 COPY package.json package-lock.json ./
 
-# Install dependencies
-RUN npm ci
+# Install dependencies with increased network resilience
+RUN npm config set fetch-retries 5 \
+    && npm config set fetch-retry-mintimeout 10000 \
+    && npm config set fetch-retry-maxtimeout 600000 \
+    && npm ci
 
 # Copy the rest of the application code
 COPY . .
