@@ -8,7 +8,8 @@ const CVSection = () => {
     const { lang } = useLanguage();
     const t = translations[lang];
 
-    const cvFile = lang === 'fr' ? '/cv/cv_fr.pdf' : '/cv/cv_en.pdf';
+    const baseUrl = import.meta.env.BASE_URL;
+    const cvFile = lang === 'fr' ? `${baseUrl}cv/cv_fr.pdf` : `${baseUrl}cv/cv_en.pdf`;
 
     return (
         <section id="cv" className="cv-section">
