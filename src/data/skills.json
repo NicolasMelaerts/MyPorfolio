@@ -1,0 +1,60 @@
+{
+    "languages": [
+        "Python",
+        "C",
+        "C++",
+        "Java"
+    ],
+    "tools": [
+        "Linux",
+        "Bash",
+        "Git",
+        "GitHub",
+        "CI/CD",
+        "Docker",
+        "VS Code",
+        "LaTeX"
+    ],
+    "ai": [
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV",
+        "Jupyter Notebook",
+        "CNN",
+        "RNN",
+        "Auto-encodeurs",
+        "Transformers"
+    ],
+    "spoken": [
+        {
+            "language": {
+                "fr": "Français",
+                "en": "French"
+            },
+            "level": {
+                "fr": "Natif",
+                "en": "Native"
+            }
+        },
+        {
+            "language": {
+                "fr": "Anglais",
+                "en": "English"
+            },
+            "level": {
+                "fr": "Intermédiaire",
+                "en": "Intermediate"
+            }
+        },
+        {
+            "language": {
+                "fr": "Néerlandais",
+                "en": "Dutch"
+            },
+            "level": {
+                "fr": "Notions",
+                "en": "Basic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+.contact-section {
+    padding: 8rem 2rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    /* Narrower for focus */
+}
+
+.contact-intro {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.big-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background: var(--bg-card);
+    backdrop-filter: blur(5px);
+    color: var(--text-primary);
+    border: 1px solid var(--border-subtle);
+    transition: all var(--transition-medium);
+}
+
+.big-btn:hover {
+    background: var(--text-primary);
+    color: var(--bg-primary);
+    border-color: var(--text-primary);
+}

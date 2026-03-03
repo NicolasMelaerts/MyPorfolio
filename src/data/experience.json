@@ -1,0 +1,68 @@
+{
+    "education": [
+        {
+            "degree": {
+                "fr": "Stagiaire Data - Analyse de données et Modélisation",
+                "en": "Data Intern - Data Analysis & Modeling"
+            },
+            "specialization": {
+                "fr": "Stage Master 2",
+                "en": "Master's Internship"
+            },
+            "institution": "Spark (Paris)",
+            "year": "Sept 2025 - Nov 2025",
+            "description": {
+                "fr": "Travail avec diverses API pour le développement de nouveaux logiciels et la maintenance des systèmes existants. Contribution à la gestion et au suivi des issues (incidents/problèmes) liés aux applications.",
+                "en": "Worked with various APIs for new software development and maintenance of existing systems. Contributed to managing and tracking application issues/incidents."
+            }
+        },
+        {
+            "degree": {
+                "fr": "Master en Sciences Informatiques",
+                "en": "Master in Computer Science"
+            },
+            "specialization": {
+                "fr": "Intelligence Artificielle et Génie Logiciel",
+                "en": "Artificial Intelligence & Software Engineering"
+            },
+            "institution": {
+                "fr": "Université de Mons (UMons)",
+                "en": "University of Mons (UMons)"
+            },
+            "year": {
+                "fr": "En cours",
+                "en": "In Progress"
+            }
+        },
+        {
+            "degree": {
+                "fr": "Bachelier en Sciences Informatiques",
+                "en": "Bachelor in Computer Science"
+            },
+            "institution": {
+                "fr": "Université Libre de Bruxelles (ULB)",
+                "en": "Université Libre de Bruxelles (ULB)"
+            },
+            "year": {
+                "fr": "Complété",
+                "en": "Completed"
+            }
+        }
+    ],
+    "interests": {
+        "fr": [
+            "Ingénierie logicielle",
+            "Deep Learning",
+            "Computer Vision",
+            "NLP et modèles de langage",
+            "Qualité code & Architecture"
+        ],
+        "en": [
+            "Software Engineering",
+            "Deep Learning",
+            "Computer Vision",
+            "NLP & LLMs",
+            "Code Quality & Architecture"
+        ]
+    }
+}

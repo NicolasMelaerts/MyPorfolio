@@ -1,0 +1,24 @@
+{
+    "name": "Nicolas Melaerts",
+    "title": {
+        "fr": "Futur Ingénieur Logiciel & IA",
+        "en": "Future Software & AI Engineer"
+    },
+    "subtitle": {
+        "fr": "Software Engineering · Machine Learning · Deep Learning",
+        "en": "Software Engineering · Machine Learning · Deep Learning"
+    },
+    "bio": {
+        "fr": "Étudiant en Master en Sciences Informatiques, spécialisé en intelligence artificielle et en génie logiciel. Je développe des solutions logicielles et des modèles de machine learning appliqués à des problématiques concrètes, avec un intérêt particulier pour la qualité, la performance et la maintenabilité.",
+        "en": "Master's student in Computer Science, specializing in Artificial Intelligence and Software Engineering. I develop software solutions and machine learning models applied to real-world problems, with a particular interest in quality, performance, and maintainability."
+    },
+    "contact": {
+        "email": "nicolas.melaerts@student.umons.ac.be",
+        "github": "https://github.com/NicolasMelaerts",
+        "linkedin": "https://www.linkedin.com/in/nicolas-melaerts-99ba02321/"
+    },
+    "heroText": {
+        "fr": "Je développe des solutions logicielles et des modèles de machine learning appliqués à des problématiques concrètes.",
+        "en": "I develop software solutions and machine learning models applied to real-world problems."
+    }
+}

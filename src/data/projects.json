@@ -1,0 +1,190 @@
+[
+    {
+        "id": "neural-net-viz",
+        "title": {
+            "fr": "Réseau de Neurones (Apprentissage)",
+            "en": "Neural Network (Learning Viz)"
+        },
+        "description": {
+            "fr": "Visualisation interactive d'un Perceptron apprenant en temps réel à séparer deux classes via la descente de gradient (Gradient Descent).",
+            "en": "Interactive visualization of a Perceptron learning to classify data in real-time using Gradient Descent."
+        },
+        "technologies": [
+            "Deep Learning",
+            "React",
+            "Canvas"
+        ],
+        "tags": [
+            "AI",
+            "Algorithms",
+            "Interactive"
+        ],
+        "link": "/neural-net",
+        "internal": true
+    },
+    {
+        "id": "genetic-algo-tsp",
+        "title": {
+            "fr": "Algorithme Génétique (TSP)",
+            "en": "Genetic Algorithm (TSP)"
+        },
+        "description": {
+            "fr": "Simulation de l'évolution de chemins pour résoudre le problème du Voyageur de Commerce (TSP) par sélection naturelle, croisement et mutation.",
+            "en": "Simulation of path evolution to solve the Traveling Salesman Problem (TSP) using natural selection, crossover, and mutation."
+        },
+        "technologies": [
+            "Heuristics",
+            "Optimization",
+            "React"
+        ],
+        "tags": [
+            "AI",
+            "Optimization",
+            "Interactive"
+        ],
+        "link": "/genetic-algo",
+        "internal": true
+    },
+    {
+        "id": "game-of-life",
+        "title": {
+            "fr": "Jeu de la Vie (Interactif)",
+            "en": "Game of Life (Interactive)"
+        },
+        "description": {
+            "fr": "Simulation interactive de l'automate cellulaire de Conway. Implémentée en React, ce projet explore les concepts d'émergence et de complexité algorithmique. Cliquez pour essayer !",
+            "en": "Interactive simulation of Conway's cellular automaton. Implemented in React, this project explores concepts of emergence and algorithmic complexity. Click to play!"
+        },
+        "technologies": [
+            "React",
+            "Algorithmie",
+            "Interactive"
+        ],
+        "tags": [
+            "Simulation",
+            "Interactive",
+            "React"
+        ],
+        "link": "/game-of-life",
+        "image": "game-of-life",
+        "internal": true
+    },
+    {
+        "id": "computer-vision-lab",
+        "title": {
+            "fr": "Laboratoire de Vision par Ordinateur",
+            "en": "Computer Vision Lab"
+        },
+        "description": {
+            "fr": "Outil interactif de traitement d'images. Expérimentez avec des filtres de convolution (détection de contours, flou, netteté, relief) en temps réel directement dans le navigateur.",
+            "en": "Interactive image processing tool. Experiment with convolution filters (edge detection, blur, sharpen, emboss) in real-time directly in the browser."
+        },
+        "technologies": [
+            "React",
+            "Canvas API",
+            "Computer Vision"
+        ],
+        "tags": [
+            "Computer Vision",
+            "Interactive",
+            "React"
+        ],
+        "link": "/computer-vision",
+        "image": "cv-lab",
+        "internal": true
+    },
+    {
+        "id": "snake-game",
+        "title": {
+            "fr": "Snake (Mini-Jeu)",
+            "en": "Snake (Mini-Game)"
+        },
+        "description": {
+            "fr": "Le classique jeu du Serpent. Un mini-projet ludique pour illustrer la manipulation de grilles et la gestion d'états dynamiques en React. Simple et efficace.",
+            "en": "The classic Snake game. A fun side-project to demonstrate grid manipulation and dynamic state management in React. Simple and effective."
+        },
+        "technologies": [
+            "React",
+            "Game Logic",
+            "Mini-Project"
+        ],
+        "tags": [
+            "Game",
+            "Interactive",
+            "React"
+        ],
+        "link": "/snake",
+        "image": "snake",
+        "internal": true
+    },
+    {
+        "id": "fire-detection",
+        "title": {
+            "fr": "Détection et localisation d’incendies",
+            "en": "Fire Detection & Localization"
+        },
+        "description": {
+            "fr": "Détection et localisation d’incendies à partir d’images en utilisant des réseaux de neurones convolutifs. Évaluation des performances et analyse critique des modèles.",
+            "en": "Fire detection and localization from images using Convolutional Neural Networks (CNNs). Performance evaluation and critical analysis of models."
+        },
+        "technologies": [
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "OpenCV"
+        ],
+        "tags": [
+            "Computer Vision",
+            "Deep Learning",
+            "Academic"
+        ],
+        "link": "https://github.com/NicolasMelaerts/fire-detection",
+        "image": "fire-detection"
+    },
+    {
+        "id": "fake-news-detector",
+        "title": {
+            "fr": "Classification de fake news",
+            "en": "Fake News Classification"
+        },
+        "description": {
+            "fr": "Classification de textes à l’aide de modèles de langage. Étude des performances et des biais des approches NLP modernes.",
+            "en": "Text classification using language models. Study of performance and biases in modern NLP approaches."
+        },
+        "technologies": [
+            "Python",
+            "NLP",
+            "Deep Learning"
+        ],
+        "tags": [
+            "NLP",
+            "AI",
+            "Academic"
+        ],
+        "link": "https://github.com/NicolasMelaerts/fake-news-detector",
+        "image": "fake-news"
+    },
+    {
+        "id": "brain-tumor",
+        "title": {
+            "fr": "Segmentation de tumeurs cérébrales",
+            "en": "Brain Tumor Segmentation"
+        },
+        "description": {
+            "fr": "Segmentation d’images médicales par deep learning en utilisant des auto-encodeurs pour l'imagerie médicale.",
+            "en": "Medical image segmentation using Deep Learning auto-encoders for MRI scans."
+        },
+        "technologies": [
+            "Python",
+            "Computer Vision",
+            "Deep Learning"
+        ],
+        "tags": [
+            "Medical AI",
+            "Computer Vision",
+            "Academic"
+        ],
+        "link": "https://github.com/NicolasMelaerts/AEs-for-brain-tumor-segmentation",
+        "image": "brain-tumor"
+    }
+]
