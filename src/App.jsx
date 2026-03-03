@@ -18,32 +18,32 @@ import GeneticAlgo from './components/GeneticAlgo';
 
 // Main Landing Page Component
 const Home = () => (
-  <Layout>
-    <Hero />
-    <About />
-    <Skills />
-    <Projects />
-    <Vision />
-    <CVSection />
-    <Contact />
-  </Layout>
+    <Layout>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Vision />
+        <CVSection />
+        <Contact />
+    </Layout>
 );
 
 const App = () => {
-  return (
-    <LanguageProvider>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/game-of-life" element={<><BackButton /><GameOfLife /></>} />
-          <Route path="/computer-vision" element={<><BackButton /><ImageLab /></>} />
-          <Route path="/snake" element={<><BackButton /><SnakeGame /></>} />
-          <Route path="/neural-net" element={<><BackButton /><NeuralNetViz /></>} />
-          <Route path="/genetic-algo" element={<><BackButton /><GeneticAlgo /></>} />
-        </Routes>
-      </Router>
-    </LanguageProvider>
-  );
+    return (
+        <LanguageProvider>
+            <Router basename="/MyPorfolio">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/game-of-life" element={<><BackButton /><GameOfLife /></>} />
+                    <Route path="/computer-vision" element={<><BackButton /><ImageLab /></>} />
+                    <Route path="/snake" element={<><BackButton /><SnakeGame /></>} />
+                    <Route path="/neural-net" element={<><BackButton /><NeuralNetViz /></>} />
+                    <Route path="/genetic-algo" element={<><BackButton /><GeneticAlgo /></>} />
+                </Routes>
+            </Router>
+        </LanguageProvider>
+    );
 };
 
 export default App;
